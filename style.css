@@ -406,14 +406,13 @@ border-color: #b67840;
 }
 
 .events-table-box {
-    width:100%;
-    overflow-x:auto;
+    display:flex;
+    justify-content: center;
     margin: 40px 0;
 }
 
 .events-table {
     width: 85%;
-    min-width: 700px;
     max-width: 900px;
     border-collapse: collapse;
     background: white;
@@ -532,6 +531,7 @@ h1,h2,h3{
     @media(max-width:768px){
         .events-table-box{
             overflow-x: auto;
+            display: block;
         }
         .events-table{
             min-width: 700px;
