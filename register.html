@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Register - SQU Events Hub</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<div class="container nav-bar">
+
+<div class="brand">
+<img src="images/logo.png">
+<div>
+<h1>SQU Events Hub</h1>
+<p>Inspiring Campus Life</p>
+</div>
+</div>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About Us</a>
+<a href="events.html">Events</a>
+<a href="register.html" class="active">Register</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+</div>
+</header>
+
+
+<section class="page-hero">
+<div class="container">
+<h2>Event Registration</h2>
+<p>Register for upcoming university events easily.</p>
+</div>
+</section>
+
+
+<section class="register-section">
+<div class="container">
+
+<form class="register-form" action="https://httpbin.org/get">
+
+<label>Full Name</label>
+<input type="text" name="fullname" placeholder="Enter your name">
+
+<label>Email</label>
+<input type="email" name="email" placeholder="Enter your email">
+
+<label>Student ID</label>
+<input type="text" name="studentid" placeholder="Enter your student ID">
+
+<label>Select Event</label>
+<select name="event">
+<option>AI Workshop 2026</option>
+<option>Cultural Festival</option>
+<option>Leadership Seminar</option>
+</select>
+
+<label>Additional Notes</label>
+<textarea name="notes" rows="4" placeholder="Write any notes..."></textarea>
+
+<button type="submit" class="btn">Submit Registration</button>
+
+</form>
+
+<h3 class="table-title">Registered Participants</h3>
+
+<div class="events-table-box">
+
+<table class="events-table">
+
+<tr>
+<th>Name</th>
+<th>Student ID</th>
+<th>Event</th>
+</tr>
+
+<tr>
+<td>Manar</td>
+<td>143641</td>
+<td>AI Workshop 2026</td>
+</tr>
+
+<tr>
+<td>Ali</td>
+<td>143500</td>
+<td>Cultural Festival</td>
+</tr>
+
+<tr>
+<td>Sara</td>
+<td>143720</td>
+<td>Leadership Seminar</td>
+</tr>
+
+</table>
+
+</div>
+
+</div>
+</section>
+
+
+<footer>
+<div class="container">
+<p>&copy; 2026 SQU Events Hub | By Manar Al Nabhani</p>
+</div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upcoming Events - SQU Events Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container nav-bar">
+            <div class="brand">
+                <img src="images/logo.png" alt="SQU Events Hub Logo">
+                <div>
+                    <h1>SQU Events Hub</h1>
+                    <p>Inspiring Campus Life</p>
+                </div>
+            </div>
+
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="events.html" class="active">Events</a>
+                <a href="register.html">Register</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-hero">
+        <div class="container">
+            <h2>Upcoming Events</h2>
+            <p>Explore the latest academic, cultural, and social activities at Sultan Qaboos University.</p>
+            <div class="events-table-box">
+    <table class="events-table">
+        <tr>
+            <th>Event</th>
+            <th>Date</th>
+            <th>Location</th>
+            <th>Category</th>
+        </tr>
+
+        <tr>
+            <td>AI Workshop 2026</td>
+            <td>20 March 2026</td>
+            <td>Computer Science Lab</td>
+            <td>Academic</td>
+        </tr>
+
+        <tr>
+            <td>Cultural Festival</td>
+            <td>5 April 2026</td>
+            <td>Main Hall</td>
+            <td>Cultural</td>
+        </tr>
+
+        <tr>
+            <td>Leadership Seminar</td>
+            <td>15 April 2026</td>
+            <td>Business Auditorium</td>
+            <td>Workshop</td>
+        </tr>
+    </table>
+</div>
+
+
+        </div>
+    </section>
+
+    <section class="events-section">
+        <div class="container">
+
+            <div class="event-card">
+                <img src="images/event1.jpeg" alt="AI Workshop">
+                <div class="event-info">
+                    <h3>AI Workshop 2026</h3>
+                    <p><strong>Date:</strong> 20 March 2026</p>
+                    <p><strong>Location:</strong> Computer Science Lab</p>
+                    <p><strong>Category:</strong> Academic Workshop</p>
+                    <p>This workshop introduces students to the basics of Artificial Intelligence and its applications.</p>
+                    <a href="register.html" class="btn">Register Now</a>
+                </div>
+            </div>
+
+            <div class="event-card">
+                <img src="images/event3.jpeg" alt="Cultural Festival">
+                <div class="event-info">
+                    <h3>Cultural Festival</h3>
+                    <p><strong>Date:</strong> 25 March 2026</p>
+                    <p><strong>Location:</strong> University Main Hall</p>
+                    <p><strong>Category:</strong> Cultural Event</p>
+                    <p>Join students from different backgrounds in a day full of performances, exhibitions, and cultural exchange.</p>
+                    <a href="register.html" class="btn">Register Now</a>
+                </div>
+            </div>
+
+            <div class="event-card">
+                <img src="images/event4.jpeg" alt="Leadership Seminar">
+                <div class="event-info">
+                    <h3>Leadership Seminar</h3>
+                    <p><strong>Date:</strong> 30 March 2026</p>
+                    <p><strong>Location:</strong> Conference Room A</p>
+                    <p><strong>Category:</strong> Seminar</p>
+                    <p>This seminar helps students improve communication, teamwork, and leadership skills.</p>
+                    <a href="register.html" class="btn">Register Now</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <h3 class="table-title">Event Feedback</h3>
+
+<form class="register-form" action="https://httpbin.org/get" method="get">
+
+<label>Your Name</label>
+<input type="text" name="fullname" placeholder="Enter your name">
+
+<label>Select Event</label>
+<select name="event">
+    <option>AI Workshop 2026</option>
+    <option>Cultural Festival</option>
+    <option>Leadership Seminar</option>
+</select>
+
+<label>Rate the Event</label>
+<select name="rating">
+    <option>Excellent</option>
+    <option>Very Good</option>
+    <option>Good</option>
+    <option>Average</option>
+</select>
+
+<label>Your Feedback</label>
+<textarea name="feedback" rows="4" placeholder="Write your feedback..."></textarea>
+
+<button type="submit" class="btn">Submit Feedback</button>
+
+</form>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 SQU Events Hub | By Manar Al Nabhani</p>
+        </div>
+    </footer>
+
+</body>
+</html>
