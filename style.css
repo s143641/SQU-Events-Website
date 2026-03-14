@@ -406,13 +406,14 @@ border-color: #b67840;
 }
 
 .events-table-box {
-    display: flex;
-    justify-content: center;
+    width:100%;
+    overflow-x:auto;
     margin: 40px 0;
 }
 
 .events-table {
     width: 85%;
+    min-width: 700px;
     max-width: 900px;
     border-collapse: collapse;
     background: white;
@@ -527,5 +528,18 @@ h1,h2,h3{
     .highlight-image,
     .highlight-text{
         width: 100%;
+    }
+    @media(max-width:768px){
+        .events-table-box{
+            overflow-x: auto;
+        }
+        .events-table{
+            min-width: 700px;
+        }
+        .events-table th,
+        .events-table td{
+            padding:10px;
+            font-size: 14px;
+        }
     }
 }
