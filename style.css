@@ -542,4 +542,20 @@ h1,h2,h3{
             font-size: 14px;
         }
     }
+
+    @media(max-width:768px){
+        .event-card{
+            flex-direction:column;
+            text-align: center;
+            }
+        .event-card img{
+            width:100%;
+            max-width:300px;
+            margin-bottom: 15px;
+        }
+
+        .event-info{
+            width:100%;
+        }
+    }
 }
